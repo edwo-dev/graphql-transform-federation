@@ -59,7 +59,7 @@ describe('Transform Federation', () => {
       Product: {
         keyFields: ['id'],
         extend: true,
-        resolveReference(reference) {
+        resolveReference(reference: any) {
           return {
             ...reference,
             name: 'mock name',
