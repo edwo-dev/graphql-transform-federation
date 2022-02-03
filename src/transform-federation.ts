@@ -13,7 +13,7 @@ import {
   EntityType,
   GraphQLReferenceResolver,
   serviceField,
-} from '@apollo/federation/dist/types';
+} from '@apollo/subgraph/dist/types'; // BUG-FIX: E.Wolf, 2022-02-03
 
 export interface FederationFieldConfig {
   external?: boolean;
